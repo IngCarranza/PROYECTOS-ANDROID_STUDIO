@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="150dp"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lblMarcaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-140dp"
+        android:layout_toStartOf="@+id/lblMarca"
+        android:text="Marca:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblMarca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:text="Marca"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/lblMotorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblMarca"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-175dp"
+        android:layout_toStartOf="@+id/lblMotor"
+        android:text="Motor:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblMotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblMarca"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Motor"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/lblChasisLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblMotorLabel"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="-0dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_toStartOf="@+id/lblMotor"
+        android:text="Chasis:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblChasis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblMotor"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Chasis"
+        android:textColor="@color/black" />
+
+
+
+
+    <TextView
+        android:id="@+id/lblVinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_below="@+id/lblVin"
+        android:layout_toStartOf="@+id/lblVin"
+        android:text="Vin:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblVin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblChasis"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Vin"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "518023712463",
+    "firebase_url": "https://miappprograii-default-rtdb.firebaseio.com",
+    "project_id": "miappprograii",
+    "storage_bucket": "miappprograii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518023712463:android:ac977b77ead266286971ba",
+        "android_client_info": {
+          "package_name": "com.ugb.controlesbasicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPf8xCXsvFWHMbhocDhKQzWPZ8b2Hv4sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

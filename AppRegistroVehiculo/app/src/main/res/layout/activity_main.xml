@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/btnImgVehiculo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginEnd="122dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnImgVehiculo"
+        android:layout_marginTop="15dp"
+        android:hint="Marca"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtMotor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMarca"
+        android:layout_marginTop="26dp"
+        android:hint="Motor"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtChasis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMotor"
+        android:layout_marginTop="26dp"
+        android:hint="Chasis"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtVin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtChasis"
+        android:layout_marginTop="26dp"
+        android:hint="Vin"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/txtCombustion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtVin"
+        android:layout_marginTop="26dp"
+        android:hint="Combustion"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnGuardarVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCombustion"
+        android:layout_marginTop="27dp"
+        android:text="GUARDAR VEHICULO" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabListaVehiculos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</RelativeLayout>

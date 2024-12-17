@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnImgAmigo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_19"
+        android:contentDescription="@string/profile_picture_desc" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:hint="@string/hint_name"
+        android:layout_below="@id/btnImgAmigo"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtdireccion"
+        android:hint="@string/hint_address"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/txtnombre"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp" />
+
+    <!-- Contenedor horizontal para el teléfono y el CountryCodePicker -->
+    <LinearLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdireccion"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countrycodepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:ccp_areaCodeDetectedCountry="true"
+            app:ccp_autoDetectCountry="true"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edittext_background" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:hint="@string/hint_phone"
+            android:inputType="phone"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/phone_layout"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/txtDui"
+        android:hint="@string/hint_dui"
+        android:inputType="number"
+        android:layout_below="@id/txtEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnGuardarAmigo"
+        android:text="@string/save_friend"
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtDui"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@android:color/white"
+        android:padding="15dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabListaAmigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/regresar"
+        android:contentDescription="@string/list_friends_desc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

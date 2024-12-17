@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="150dp"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lblTituloLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-140dp"
+        android:layout_toStartOf="@+id/lblTitulo"
+        android:text="Titulo:"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:text="Titulo"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/lblSinopsisLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="-126dp"
+        android:layout_below="@+id/lblTituloLabel"
+        android:layout_toStartOf="@+id/lblSinopsis"
+        android:text="Sinopsis:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblSinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblTitulo"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Sinopsis"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/lblDuracionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_below="@+id/lblSinopsis"
+        android:layout_toStartOf="@+id/lblDuracion"
+        android:text="Duracion:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblSinopsis"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Duracion"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/lblActorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-130dp"
+        android:layout_below="@+id/lblDuracion"
+        android:layout_toStartOf="@+id/lblActor"
+        android:text="Actor:"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/lblActor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDuracion"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="14dp"
+        android:text="Actor"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

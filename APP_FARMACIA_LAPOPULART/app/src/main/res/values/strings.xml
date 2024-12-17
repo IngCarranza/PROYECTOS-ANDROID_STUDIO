@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Farmacia la popular</string>
+
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+
+
+    <!-- Otros recursos -->
+
+    <string-array name="metodos_pago">
+        <item>Efectivo</item>
+        <item>Tarjeta de Crédito</item>
+    </string-array>
+
+    <string-array name="tarjetas_credito">
+        <item>MasterCard</item>
+        <item>Visa</item>
+        <item>American Express</item>
+        <item>Davivienda</item>
+        <item>Banco Agrícola</item>
+        <item>Banco Davivienda</item>
+        <item>Banco Cuscatlán</item>
+        <item>Fedecrédito</item>
+    </string-array>
+
+    <string-array name="efectivo">
+        <item>20 dolares</item>
+        <item>100 dolares</item>
+        <item>50 dolares</item>
+        <item>5 dolares</item>
+        <item>10 dolares</item>
+    </string-array>
+
+
+    <string name="vitamia1">18 de enero del 2025
+</string>
+    <string name="vitamina1Desc"> Tomar una tableta de 10mg una vez al día, preferiblemente despues de que haya comido alimentos. Solo pueden tomarla mayores de 18 años.</string>
+
+    <string name="vitamina2">23 de julio del 2027</string>
+    <string name="vitamina2Desc">Tomar una tableta según sea necesario para aliviar la ansiedad. Comenzar con una dosis baja e incrementar según sea necesario, sin exceder la dosis máxima diaria recomendada. Pueden tomarla mayores de 18 años.</string>
+
+    <string name="vitamina3">14 de agosto del 2025</string>
+    <string name="vitamina3Desc"> Tomar una cápsula diariamente con un vaso de agua, preferiblemente despues de comer comida. Pueden tomarla mayores de 17 años.</string>
+
+    <string name="vitamina4">31 de junio de 2026</string>
+    <string name="vitamina4Desc">Tomar una cucharada aproximadamente 15 ml una vez al día. Puede ser tomado solo o mezclado con agua o jugo, preferiblemente con una comida. Pueden tomarla niños y adultos.</string>
+
+    <string name="vitamina5">12 de octubre de 2026</string>
+    <string name="vitamina5Desc">Tomar según la prescripción médica, generalmente 0.25 a 0.5 mg tres veces al día. Solo para adultos. No se recomienda su uso en niños.</string>
+
+    <string name="vitamina6">30 de diciembre del 2024</string>
+    <string name="vitamina6Desc">Tomar una cápsula de 500 mg cada 8 horas, o según lo indicado por el médico. Para niños y adultos. La dosis para niños debe ser indicada por un médico, generalmente basada en el peso corporal.</string>
+
+    <string name="vitamina7">18 de enero del 2027</string>
+    <string name="vitamina7Desc">Tomar una tableta de 10 mg una vez al día. Para niños mayores de 6 años y adultos. La dosis para niños menores de 12 años debe ser indicada por un médico.</string>
+
+    <string name="vitamina8">14 de noviembre del 2024</string>
+    <string name="vitamina8Desc"> Tomar una tableta cada 12 horas. Solo para adultos, salvo indicación contraria de un médico.</string>
+
+    <string name="vitamina9">18 de marzo del 2027</string>
+    <string name="vitamina9Desc">Tomar una tableta de 500 mg cada 12 horas durante 7-14 días, o según lo indicado por el médico. Solo para adultos. La dosis para niños debe ser indicada por un médico.</string>
+
+    <string name="vitamina10">10 de agosto del 2026</string>
+    <string name="vitamina10Desc">Tomar 10 ml cada 4-6 horas, no exceder 6 dosis en 24 horas. Para niños mayores de 6 años y adultos. La dosis para niños menores de 6 años debe ser indicada por un médico.
+
+</string>
+
+    <string name="vitamina11">10 de mayo del 2027</string>
+    <string name="vitamina11Desc">Tomar una tableta cada 6 horas, no exceder 4 tabletas en 24 horas. Solo para adultos. No se recomienda su uso en niños.
+
+</string>
+
+    <string name="vitamina12">23 de febrero del 2025</string>
+    <string name="vitamina12Desc">Administrar 2.5 ml dos veces al día, o según lo indicado por el pediatra. Solo para niños. La dosis debe ser indicada por un pediatra.
+
+</string>
+
+    <string name="vitamina13">27 de diciembre del 2024</string>
+    <string name="vitamina13Desc">Aplicar una capa delgada en el área afectada 2-3 veces al día. Para niños y adultos. Evitar el contacto con ojos y mucosas.</string>
+
+    <string name="vitamina14">11 de septiembre del 2028</string>
+    <string name="vitamina14Desc">Tomar una tableta de 500 mg cada 4-6 horas, no exceder 3 g en 24 horas. Solo para adultos. No se recomienda su uso en niños.
+</string>
+    <string name="vitamina15">3 de enero del 2025</string>
+    <string name="vitamina15Desc">Tomar una tableta de 4 mg cada 4-6 horas, no exceder 24 mg en 24 horas. Para niños mayores de 6 años y adultos. La dosis para niños menores de 12 años debe ser indicada por un médico.</string>
+
+
+    <string name="profile_picture_desc">Profile picture</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_address">Dirección</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_email">Correo Electrónico</string>
+    <string name="hint_dui">DUI</string>
+    <string name="save_friend">Guardar Amigo</string>
+    <string name="list_friends_desc">Lista de amigos</string>
+
+    //para la salud bocal
+
+    <string name="sb1">18 de enero del 2025</string>
+    <string name="sb1Desc">Cariax Gingival, enjuague bucal para la salud de las encías. Utilizar 15 ml dos veces al día después de cepillarse los dientes. No ingerir.</string>
+
+    <string name="sb2">23 de julio del 2027</string>
+    <string name="sb2Desc">Cepillo KIN, cepillo dental. Usar para cepillar los dientes al menos dos veces al día con una pasta dental fluorada. Reemplazar cada 3 meses o cuando las cerdas estén desgastadas.</string>
+
+    <string name="sb3">14 de agosto del 2025</string>
+    <string name="sb3Desc">KIN Interdentales, cepillos interdentales. Usar para limpiar los espacios interdentales una vez al día. Seleccionar el tamaño adecuado para los espacios entre los dientes.</string>
+
+    <string name="sb4">31 de junio de 2026</string>
+    <string name="sb4Desc">Cera KIN, cera dental para ortodoncia. Aplicar una pequeña cantidad sobre los brackets o alambres que causen irritación. Reemplazar según sea necesario.</string>
+
+    <string name="sb5">12 de octubre de 2026</string>
+    <string name="sb5Desc">Clorhexidina Lacer, gel dental antiséptico. Aplicar una pequeña cantidad en el área afectada con un cepillo suave o un aplicador de algodón dos veces al día. No ingerir ni enjuagar.</string>
+
+    <string name="sb6">30 de diciembre del 2024</string>
+    <string name="sb6Desc">COREGA SUPER, adhesivo para prótesis dentales. Aplicar una pequeña cantidad en las áreas secas de la prótesis, luego colocar la prótesis firmemente y morder para asegurarla.</string>
+
+    <string name="sb7">18 de enero del 2027</string>
+    <string name="sb7Desc">FLUOR-KIN, enjuague bucal con flúor. Utilizar 10 ml una vez al día después del cepillado dental. No ingerir ni comer o beber durante 30 minutos después del uso.</string>
+
+    <string name="sb8">14 de noviembre del 2024</string>
+    <string name="sb8Desc">ODDENT Forte, gel para aftas bucales. Aplicar una pequeña cantidad directamente sobre la úlcera bucal 2-3 veces al día. No comer ni beber durante al menos 30 minutos después de la aplicación.</string>
+
+
+    //aqui termina para la salud bocal
+
+    <string name="v1">18 de enero del 2025</string>
+    <string name="v1Desc">ACULAR LS, gotas oftálmicas antiinflamatorias. Aplicar 1-2 gotas en el ojo afectado 4 veces al día. No utilizar en caso de alergia a los AINEs. Uso tópico solamente.</string>
+
+    <string name="v2">23 de julio del 2027</string>
+    <string name="v2Desc">AFLREX, tomar una tableta según sea necesario para aliviar la ansiedad. Comenzar con una dosis baja e incrementar según sea necesario, sin exceder la dosis máxima diaria recomendada. Pueden tomarla mayores de 18 años.</string>
+
+    <string name="v3">14 de agosto del 2025</string>
+    <string name="v3Desc">AGGLAD, tomar una cápsula diariamente con un vaso de agua, preferiblemente después de comer. Pueden tomarla mayores de 17 años.</string>
+
+    <string name="v4">31 de junio de 2026</string>
+    <string name="v4Desc">Alin Oftálmico, gotas para los ojos. Aplicar una cucharada aproximadamente 15 ml una vez al día. Puede ser tomado solo o mezclado con agua o jugo, preferiblemente con una comida. Pueden tomarlo niños y adultos.</string>
+
+    <string name="v5">12 de octubre de 2026</string>
+    <string name="v5Desc">Brizolam, tomar según la prescripción médica, generalmente 0.25 a 0.5 mg tres veces al día. Solo para adultos. No se recomienda su uso en niños.</string>
+
+    <string name="v6">30 de diciembre del 2024</string>
+    <string name="v6Desc">Ciprowell, tomar una cápsula de 500 mg cada 8 horas, o según lo indicado por el médico. Para niños y adultos. La dosis para niños debe ser indicada por un médico, generalmente basada en el peso corporal.</string>
+
+    <string name="v7">18 de enero del 2027</string>
+    <string name="v7Desc">CLORA MICOL, tomar una tableta de 10 mg una vez al día. Para niños mayores de 6 años y adultos. La dosis para niños menores de 12 años debe ser indicada por un médico.</string>
+
+    <string name="v8">14 de noviembre del 2024</string>
+    <string name="v8Desc">3-A Ofteno, tomar una tableta cada 12 horas. Solo para adultos, salvo indicación contraria de un médico.</string>
+
+    //para la salud visual
+
+
+    //aqui termina para la salud visual
+
+
+    //para la vitaminas
+
+    <string name="b1">18 de enero del 2025</string>
+    <string name="b1Desc">3-A Ofteno, gotas para los ojos. Aplicar 1-2 gotas en cada ojo según sea necesario para aliviar la sequedad ocular. Uso tópico únicamente. Evitar el contacto con las superficies del aplicador para prevenir contaminación.</string>
+
+    <string name="b2">23 de julio del 2027</string>
+    <string name="b2Desc">Acticlep-DB, tomar una tableta según sea necesario para aliviar la ansiedad. Comenzar con una dosis baja e incrementar según sea necesario, sin exceder la dosis máxima diaria recomendada. Pueden tomarla mayores de 18 años.</string>
+
+    <string name="b3">14 de agosto del 2025</string>
+    <string name="b3Desc">Arcalion 200, tomar una cápsula diariamente con un vaso de agua, preferiblemente después de comer. Pueden tomarla mayores de 17 años.</string>
+
+    <string name="b4">31 de junio de 2026</string>
+    <string name="b4Desc">CEREBROFOS, tomar una cucharada aproximadamente 15 ml una vez al día. Puede ser tomado solo o mezclado con agua o jugo, preferiblemente con una comida. Pueden tomarlo niños y adultos.</string>
+
+    <string name="b5">12 de octubre de 2026</string>
+    <string name="b5Desc">ELETIN, tomar según la prescripción médica, generalmente 0.25 a 0.5 mg tres veces al día. Solo para adultos. No se recomienda su uso en niños.</string>
+
+    <string name="b6">30 de diciembre del 2024</string>
+    <string name="b6Desc">FOSFO B-12, tomar una cápsula de 500 mg cada 8 horas, o según lo indicado por el médico. Para niños y adultos. La dosis para niños debe ser indicada por un médico, generalmente basada en el peso corporal.</string>
+
+    <string name="b7">18 de enero del 2027</string>
+    <string name="b7Desc">FOSFO neuromax, tomar una tableta de 10 mg una vez al día. Para niños mayores de 6 años y adultos. La dosis para niños menores de 12 años debe ser indicada por un médico.</string>
+
+    <string name="b8">14 de noviembre del 2024</string>
+    <string name="b8Desc">FOSKROL, tomar una tableta cada 12 horas. Solo para adultos, salvo indicación contraria de un médico.</string>
+
+    //aqui termina para la vitaminas
+
+
+    //para la gripe y tos
+
+    <string name="g1">18 de enero del 2025</string>
+    <string name="g1Desc">Antigrip, tomar una tableta según sea necesario para aliviar síntomas de gripe y resfriado. No exceder la dosis máxima diaria recomendada. Para adultos y niños mayores de 12 años.</string>
+
+    <string name="g2">23 de julio del 2027</string>
+    <string name="g2Desc">Anti.Grip día, tomar una tableta cada 8 horas durante el día para aliviar síntomas de gripe. No tomar más de 3 tabletas en 24 horas. Solo para adultos.</string>
+
+    <string name="g3">14 de agosto del 2025</string>
+    <string name="g3Desc">ABRILLAR EA 575, tomar una cápsula diariamente con un vaso de agua, preferiblemente después de comer. Para adultos y niños mayores de 17 años.</string>
+
+    <string name="g4">31 de junio de 2026</string>
+    <string name="g4Desc">ACEITE GOMENOLADO, tomar una cucharada aproximadamente 15 ml una vez al día. Puede ser tomado solo o mezclado con agua o jugo, preferiblemente con una comida. Pueden tomarlo niños y adultos.</string>
+
+    <string name="g5">12 de octubre de 2026</string>
+    <string name="g5Desc">Alicol D, tomar según la prescripción médica, generalmente 0.25 a 0.5 mg tres veces al día. Solo para adultos. No se recomienda su uso en niños.</string>
+
+    <string name="g6">30 de diciembre del 2024</string>
+    <string name="g6Desc">Ambroxol MK, tomar una cápsula de 500 mg cada 8 horas, o según lo indicado por el médico. Para niños y adultos. La dosis para niños debe ser indicada por un médico, generalmente basada en el peso corporal.</string>
+
+    <string name="g7">18 de enero del 2027</string>
+    <string name="g7Desc">AMBROXOL SUIZOS, tomar una tableta de 10 mg una vez al día. Para niños mayores de 6 años y adultos. La dosis para niños menores de 12 años debe ser indicada por un médico.</string>
+
+    <string name="g8">14 de noviembre del 2024</string>
+    <string name="g8Desc">ANTIFLU-DES, tomar una tableta cada 12 horas para aliviar síntomas de gripe y tos. Solo para adultos, salvo indicación contraria de un médico.</string>
+
+
+    //para primeros auxilios
+    <string name="p1">30 de abril del 2026</string>
+    <string name="p1Desc">Alcohol 70°, ideal para cualquier herida o cortadura. Advertencia: este no es un producto para ingerir. Evita el contacto con los niños.</string>
+
+    <string name="p2">15 de marzo del 2025</string>
+    <string name="p2Desc">Algodón, perfecto para limpiar y desinfectar heridas. Mantener en un lugar seco y evitar el contacto con superficies sucias.</string>
+
+    <string name="p3">25 de julio del 2026</string>
+    <string name="p3Desc">Locide Solución, aplicar directamente sobre la piel afectada. Uso tópico únicamente. Evitar el contacto con los ojos y mucosas.</string>
+
+    <string name="p4">10 de septiembre del 2026</string>
+    <string name="p4Desc">BUROSOL, solución oftálmica. Aplicar 1-2 gotas en cada ojo según sea necesario. No compartir el envase con otras personas.</string>
+
+    <string name="p5">18 de febrero del 2026</string>
+    <string name="p5Desc">OXIGEN, suplemento de oxígeno portátil. Usar en áreas bien ventiladas. No inhalar directamente del envase.</string>
+
+    <string name="p6">22 de enero del 2025</string>
+    <string name="p6Desc">CureBand, vendas adhesivas. Aplicar sobre la piel limpia y seca. Cambiar la venda diariamente o cuando esté húmeda o sucia.</string>
+
+    <string name="p7">17 de agosto del 2026</string>
+    <string name="p7Desc">MIGASA, crema para aliviar dolores musculares. Aplicar una capa delgada sobre el área afectada y masajear suavemente. No usar en piel irritada o con heridas abiertas.</string>
+
+    <string name="p8">5 de junio del 2025</string>
+    <string name="p8Desc">NexCare, cinta adhesiva médica. Ideal para asegurar vendajes y apósitos. Cortar a la longitud deseada y aplicar sobre la piel limpia y seca.</string>
+
+    //aqui termina para primeros auxilios
+
+
+    <string name="back_desc">Go back</string>
+
+
+</resources>
